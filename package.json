@@ -1,6 +1,6 @@
 {
-  "name": "MarkdownSyntax",
-  "displayName": "MarkdownSyntax",
+  "name": "mdsnippets",
+  "displayName": "MarkdownSyntaxSuggestion",
   "description": "Notion style syntax suggestion for Markdown",
   "version": "0.0.1",
   "engines": {
@@ -8,12 +8,13 @@
   },
   "repository": {
 		"type": "git",
-		"url": "https://github.com/sangpotado"
+		"url": "https://github.com/sangpotado/mdsnippets-0.0.1"
 	},
   "icon": "icon.png",
   "categories": [
     "Snippets"
   ],
+  "publisher": "sangdo",
   "contributes": {
     "snippets": [
       {

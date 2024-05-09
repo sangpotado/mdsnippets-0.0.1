@@ -1,20 +1,36 @@
 # mdsnippets README
 
-This is the README for your extension "mdsnippets". After writing up a brief description, we recommend including the following sections.
+The Markdown Syntax Suggestion extension for VS Code streamlines your writing process. 
+This extension saves you time and ensures consistent formatting, making your Markdown documents clear and readable.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+Simply type a forward slash (/) and get instant suggestions for the desired Markdown syntax. Choose your intent from the list and hit enter to effortlessly apply the formatting.
 
-For example if there is an image subfolder under your extension project workspace:
+**Supported Markdown Syntax** 
+- Headings (h1-h5)
+- Bold Text
+- Italic Text
+- Bold & Italic Text
+- Strikethrough
+- Blockquote (Single & Multi-Paragraph)
+- Nested Blockquote
+- Inline Code
+- Code Block
+- Unordered List
+- Ordered List
+- Image
+- Link
+- URL/Email Address
+- Reference Link
+<!-- \!\[feature X\]\(images/feature-x.png\) -->
 
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+<!-- > Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow. -->
 
 ## Requirements
 
 If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+
 
 ## Extension Settings
 
