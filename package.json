@@ -1,0 +1,26 @@
+{
+  "name": "MarkdownSyntax",
+  "displayName": "MarkdownSyntax",
+  "description": "Notion style syntax suggestion for Markdown",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "repository": {
+		"type": "git",
+		"url": "https://github.com/sangpotado"
+	},
+  "icon": "icon.png",
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "markdown",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  }
+
+}

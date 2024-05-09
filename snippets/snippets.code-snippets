@@ -1,0 +1,102 @@
+{
+    "h1 headline": {
+        "prefix": "/h1",
+        "body": ["# $1", "", "$0"],
+        "description": "h1 headline"
+    }, 
+    "h2 sub-headline": {
+        "prefix": "/h2",
+        "body": ["## $1", "", "$0"],
+        "description": "h2 sub-headline"
+      },
+      "h3 headline": {
+        "prefix": "/h3",
+        "body": ["### $1", "", "$0"],
+        "description": "h3 sub-sub-headline"
+      },
+      "h4 headline": {
+        "prefix": "/h4",
+        "body": ["#### $1", "", "$0"],
+        "description": "h4 sub-headline"
+      },
+      "h5 headline": {
+        "prefix": "/h3",
+        "body": ["##### $1", "", "$0"],
+        "description": "h5 sub-sub-headline"
+      },
+      "bold text": {
+        "prefix": "/bold",
+        "body": ["**$1**"],
+        "description": "bold text"
+      },
+      "italic text": {
+        "prefix": "/italic",
+        "body": ["*$1*"],
+        "description": "italic text"
+      },
+      "bold and italic": {
+        "prefix": "/bold&italic",
+        "body": ["***$1***"],
+        "description": "bold and italic"
+      },
+      "strikethrough": {
+        "prefix": "/strikethrough",
+        "body": ["~~$1~~"],
+        "description": "put strikethrough text"
+      },
+      "blockquote": {
+        "prefix": "/blockquote",
+        "body": ["> $1"],
+        "description": "blockquote"
+      },
+      "blockquote multiple paragraph": {
+        "prefix": "/blockquote_multi",
+        "body": ["> $1", ">", ">$0"],
+        "description": "blockquotes with multiple paragraphs"
+      },
+      "nested blockquote": {
+        "prefix": "/blockquote_nested",
+        "body": ["> $1", ">", ">>$0"],
+        "description": "Nested Blockquotes"
+      },
+      "code": {
+        "prefix": "/code",
+        "body": ["`$1", "$0", "`"],
+        "description": "code"
+      },
+      "code block": {
+        "prefix": "/codeblock",
+        "body": ["```$1", "$2", "```", "", "$0"],
+        "description": "code block"
+      },
+      "unorderedList": {
+        "prefix": "/unordered list",
+        "body": ["- $1", "$0"],
+        "description": "unordered list"
+      },
+      "orderedList": {
+        "prefix": "/ordered list",
+        "body": ["1. $1", "$0"],
+        "description": "ordered list"
+      },
+      "image": {
+        "prefix": "/img",
+        "body": ["![description$2](url$1)", "$0"],
+        "description": "image"
+      },
+      "link": {
+        "prefix": "/link",
+        "body": ["[description$2](path$1)", "$0"],
+        "description": "link"
+      },
+      "url/email": {
+        "prefix": "/url/email",
+        "body": ["<$0>"],
+        "description": "url or email"
+      },
+      "reference link": {
+        "prefix": "/reference",
+        "body": ["[name$0][number$1]", "", "[$1]: url"]
+      }
+
+}
